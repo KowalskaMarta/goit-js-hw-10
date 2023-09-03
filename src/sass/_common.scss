@@ -1,0 +1,61 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    margin-top: 25px;
+    background-color: lightgray;
+}
+
+.is-hidden {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.cat-info {
+    margin-top: 50px;
+}
+
+.breed-select {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.group-cats {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+    & div {
+        width: 400px;
+    }
+}
+
+.description {
+
+}
+
+.cats {
+
+    &__name {
+        color: black;
+        margin-top: -10px;
+    }
+
+
+    &__description {
+        font-style: normal;
+    }
+
+    &__temperament {
+        color: rgb(77, 74, 74);
+        font-style: italic;
+    }
+
+}
